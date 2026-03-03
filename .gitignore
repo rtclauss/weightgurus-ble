@@ -1,0 +1,16 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+
+workarea/apks/*
+!workarea/apks/.gitkeep
+
+workarea/captures/*
+!workarea/captures/.gitkeep
+
+workarea/decompiled/*
+!workarea/decompiled/.gitkeep
+
+workarea/samples/*
+!workarea/samples/.gitkeep

@@ -1,0 +1,12 @@
+{
+  "domain": "weightgurus_ble",
+  "name": "Weight Gurus BLE",
+  "config_flow": false,
+  "integration_type": "device",
+  "iot_class": "local_push",
+  "loggers": [
+    "custom_components.weightgurus_ble"
+  ],
+  "requirements": [],
+  "version": "0.0.1"
+}
