@@ -1,12 +1,26 @@
 {
   "domain": "weightgurus_ble",
   "name": "Weight Gurus BLE",
-  "config_flow": false,
+  "bluetooth": [
+    {
+      "connectable": true,
+      "service_uuid": "20568521-5acd-4c5a-9294-eb2691c8b8bf"
+    }
+  ],
+  "codeowners": [
+    "@rtclauss"
+  ],
+  "config_flow": true,
+  "dependencies": [
+    "bluetooth_adapters"
+  ],
+  "documentation": "https://github.com/rtclauss/weightgurus-ble#readme",
   "integration_type": "device",
   "iot_class": "local_push",
+  "issue_tracker": "https://github.com/rtclauss/weightgurus-ble/issues",
   "loggers": [
     "custom_components.weightgurus_ble"
   ],
   "requirements": [],
-  "version": "0.0.1"
+  "version": "0.1.0"
 }

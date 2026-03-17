@@ -1,0 +1,70 @@
+{
+  "title": "Weight Gurus BLE",
+  "config": {
+    "abort": {
+      "already_configured": "This Weight Gurus scale is already configured."
+    },
+    "error": {
+      "invalid_address": "Enter a Bluetooth address or identifier."
+    },
+    "step": {
+      "user": {
+        "data": {
+          "address": "Bluetooth address",
+          "name": "Display name"
+        },
+        "description": "Set up a Weight Gurus scale that requires an active Bluetooth connection.",
+        "title": "Set up Weight Gurus BLE"
+      }
+    }
+  },
+  "options": {
+    "error": {
+      "invalid_athlete": "Choose whether athlete mode is enabled.",
+      "invalid_birthday": "Birthday must use YYYY-MM-DD and cannot be in the future.",
+      "invalid_height": "Height must be a positive number.",
+      "invalid_profile": "The profile values are not valid.",
+      "invalid_sex": "Choose male or female."
+    },
+    "step": {
+      "init": {
+        "data": {
+          "athlete": "Athlete",
+          "birthday": "Birthday",
+          "height_cm": "Height (cm)",
+          "sex": "Sex"
+        },
+        "description": "These values are used to calculate derived A6 metrics locally in Home Assistant. Age is computed automatically from the birthday.",
+        "title": "Profile"
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "battery": {
+        "name": "Battery"
+      },
+      "bmi": {
+        "name": "BMI"
+      },
+      "body_fat_percent": {
+        "name": "Body fat"
+      },
+      "body_water_percent": {
+        "name": "Body water"
+      },
+      "impedance_metric": {
+        "name": "Impedance metric"
+      },
+      "measured_at": {
+        "name": "Measured at"
+      },
+      "muscle_percent": {
+        "name": "Muscle"
+      },
+      "weight": {
+        "name": "Weight"
+      }
+    }
+  }
+}
