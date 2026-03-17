@@ -45,7 +45,9 @@ The following entities are exposed:
 
 1. Go to `Settings -> Devices & Services`.
 2. Add `Weight Gurus BLE`.
-3. Select or enter the Bluetooth address for the scale.
+3. If Home Assistant discovers the scale while it is advertising, confirm the
+   auto-discovered device. Otherwise select or enter the Bluetooth address
+   manually.
 4. Open the integration options and enter:
    - `height_cm`
    - `birthday`
