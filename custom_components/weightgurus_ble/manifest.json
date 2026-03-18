@@ -13,6 +13,14 @@
     {
       "connectable": true,
       "service_uuid": "0000a602-0000-1000-8000-00805f9b34fb"
+    },
+    {
+      "connectable": true,
+      "local_name": "LS212-B"
+    },
+    {
+      "connectable": true,
+      "manufacturer_id": 13330
     }
   ],
   "codeowners": [
@@ -30,5 +38,5 @@
     "custom_components.weightgurus_ble"
   ],
   "requirements": [],
-  "version": "0.1.2"
+  "version": "0.1.3"
 }
